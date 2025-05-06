@@ -235,6 +235,7 @@ footer p {
   }
 
   .header-logo {
+    align-items: center;
     margin-right: 1rem;
   }
 
