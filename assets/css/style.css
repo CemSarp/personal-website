@@ -228,24 +228,33 @@ footer p {
 /* Mobile styles */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    margin-right: 1rem;
   }
 
   .header-right {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    align-items: center;
     gap: 0.5rem;
   }
 
   nav {
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   nav a {
     margin: 0;
+    font-size: 0.9rem;
   }
 
   .intro {
@@ -270,7 +279,7 @@ footer p {
     padding: 1rem;
   }
   .social-logo {
-    margin-left: 0;
+    height: auto;
     width: 28px;
   }
 
