@@ -10,8 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  background: #f9fbfd; /* lighter white-blue background */
-  color: #34495e;
+  background: #ecf0f1;       /* light grey page background */
+  color: #2C3E50;
 }
 
 /* Header: gradient background */
